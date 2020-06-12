@@ -1,0 +1,9 @@
+2020-06-12 21:01:46,761 INFO [root] [test_login_params.py(test01_login:23)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e62da531-534d-4b2c-900d-96944d6f75c2'}
+2020-06-12 21:01:46,790 INFO [root] [test_login_params.py(test01_login:23)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-12 21:01:46,821 INFO [root] [test_dep_params.py(test01_login_success:24)] - 登录接口返回的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '026aa766-0449-43e6-be88-05d465bad93b'}
+2020-06-12 21:01:46,822 INFO [root] [test_dep_params.py(test01_login_success:30)] - 保存到全局变量中的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 026aa766-0449-43e6-be88-05d465bad93b'}
+2020-06-12 21:01:46,861 INFO [root] [test_dep_params.py(test03_add_dep:51)] - 添加部门的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271427567131373568'}}
+2020-06-12 21:01:46,862 INFO [root] [test_dep_params.py(test03_add_dep:55)] - 保存到全局变量的部门的ID为：1271427567131373568
+2020-06-12 21:01:46,893 INFO [root] [test_dep_params.py(test04_query_dep:64)] - 查询部门的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271427567131373568', 'pid': '', 'companyId': '1', 'name': '服务部', 'code': '004', 'managerId': None, 'manager': '苹果', 'introduce': '日常解决员工的小要求', 'createTime': None}}
+2020-06-12 21:01:46,926 INFO [root] [test_dep_params.py(test05_modify_dep:73)] - 修改部门的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-06-12 21:01:46,960 INFO [root] [test_dep_params.py(test06_delete_dep:82)] - 删除部门的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
